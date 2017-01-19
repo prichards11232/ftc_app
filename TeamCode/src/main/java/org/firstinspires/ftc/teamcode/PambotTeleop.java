@@ -93,7 +93,7 @@ public class PambotTeleop extends LinearOpMode {
 
             // Normalize the values so neither exceed +/- 1.0
             max = Math.max(Math.abs(left), Math.abs(right));
-            if (max > 1.0)
+            if (max > 8.0)
             {
                 left /= max;
                 right /= max;
@@ -127,7 +127,7 @@ public class PambotTeleop extends LinearOpMode {
             telemetry.addData("right", "%.2f", right);
             telemetry.update();
 
-            idle(); // Always call idle() at the bottom of your while(opMOdeIsActive()) loop
+            idle(); // Always call idle() at the bottom of your while(opModeIsActive()) loop
 
         }
     }
