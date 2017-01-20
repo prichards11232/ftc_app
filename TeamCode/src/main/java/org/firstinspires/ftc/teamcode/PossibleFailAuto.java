@@ -30,10 +30,11 @@ public class PossibleFailAuto extends LinearOpMode {
 
         waitForStart();
 
-        DriveForward(-5000);
-        sleep(4500);
+        DriveForward(5000);
+        sleep(3000);
+
         StopDriving();
-        sleep(25.5);
+        sleep(25500);
 //sleep is in milliseconds
 
 
@@ -41,8 +42,8 @@ public class PossibleFailAuto extends LinearOpMode {
     }
 
     public void DriveForward(double power) {
-        motorLeft.setPower(7000);
-        motorRight.setPower(7000);
+        motorLeft.setPower(700000);
+        motorRight.setPower(700000);
 
     }
 
