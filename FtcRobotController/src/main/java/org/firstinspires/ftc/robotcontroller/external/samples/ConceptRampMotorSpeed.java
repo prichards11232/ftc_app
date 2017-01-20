@@ -18,7 +18,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 @Autonomous(name = "Concept: Ramp Motor Speed", group = "Concept")
-@Disabled
+
 public class ConceptRampMotorSpeed extends LinearOpMode {
 
     static final double INCREMENT   = 0.01;     // amount to ramp motor each CYCLE_MS cycle
