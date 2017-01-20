@@ -1,7 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="Java/Declaration/Implement abstract class or interface" />
-    <ignoreAction name="Java/Modifiers/Make Package-Local" />
-    <ignoreAction name="Java/Declaration/Generate missed test methods" />
-  </component>
-</application>
