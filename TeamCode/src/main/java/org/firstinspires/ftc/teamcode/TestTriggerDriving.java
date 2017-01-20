@@ -18,7 +18,7 @@ public class TestTriggerDriving extends OpMode {
         leftMotor = hardwareMap.dcMotor.get("left_drive");
         rightMotor = hardwareMap.dcMotor.get("right_drive");
 
-        //reverse the left mototr
+        //reverse the left motor
         rightMotor.setDirection(DcMotor.Direction.REVERSE);
     }
 
