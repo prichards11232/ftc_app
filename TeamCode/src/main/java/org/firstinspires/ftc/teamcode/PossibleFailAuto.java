@@ -30,8 +30,8 @@ public class PossibleFailAuto extends LinearOpMode {
 
         waitForStart();
 
-        DriveForward(5000);
-        sleep(3000);
+        DriveForward(4000);
+        sleep(2000);
 
         StopDriving();
         sleep(25500);
